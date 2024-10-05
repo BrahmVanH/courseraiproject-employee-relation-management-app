@@ -1,13 +1,13 @@
-FROM node:15
+FROM node:lts
 
 WORKDIR /app
 
-COPY package.json .
+COPY package*.json ./
 
 RUN npm install
 
-COPY . ./
+COPY index.js ./
 
 EXPOSE 4545
 
-CMD ["node", "index.js"]
+CMD ["npm", "run", "start"]
