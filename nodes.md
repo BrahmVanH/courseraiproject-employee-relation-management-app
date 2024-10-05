@@ -12,6 +12,7 @@ ass projects to each staff member
     - department
     - project 
     - patient 
+    
 
 
 2. Create a web ui for employees and departments management
