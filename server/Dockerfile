@@ -10,4 +10,4 @@ COPY index.js ./
 
 EXPOSE 4545
 
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]
